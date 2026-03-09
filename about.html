@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>Zoofari - Zoological Park</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <meta content="" name="keywords" />
+  <meta content="" name="description" />
+
+  <!-- Favicon -->
+  <link href="img/icon/icon-10.png" rel="icon" />
+
+  <!-- Google Web Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Quicksand:wght@600;700&display=swap"
+    rel="stylesheet" />
+
+  <!-- Icon Font Stylesheet -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />
+
+  <!-- Libraries Stylesheet -->
+  <link href="lib/animate/animate.min.css" rel="stylesheet" />
+  <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet" />
+  <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet" />
+
+  <!-- Customized Bootstrap Stylesheet -->
+  <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- Template Stylesheet -->
+  <link href="css/style.css" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- Spinner Start -->
+  <div id="spinner"
+    class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+    <div class="spinner-border text-primary" style="width: 3rem; height: 3rem" role="status">
+      <span class="sr-only">Loading...</span>
+    </div>
+  </div>
+  <!-- Spinner End -->
+
+  <!-- Topbar Start -->
+  <div class="container-fluid bg-light p-0 wow fadeIn" data-wow-delay="0.1s">
+    <div class="row gx-0 d-none d-lg-flex">
+      <div class="col-lg-7 px-5 text-start">
+        <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+          <small class="fa fa-map-marker-alt text-primary me-2"></small>
+          <small>2 No. Alipore Road
+            Kolkata 700 027, West Bengal, India</small>
+        </div>
+        <div class="h-100 d-inline-flex align-items-center py-3">
+          <small class="far fa-clock text-primary me-2"></small>
+          <small>Mon - Fri : 09.00 AM - 06.00 PM</small>
+        </div>
+      </div>
+      <div class="col-lg-5 px-5 text-end">
+        <div class="h-100 d-inline-flex align-items-center py-3 me-4">
+          <small class="fa fa-phone-alt text-primary me-2"></small>
+          <small>+91 33 2479 1150 / +91 33 2439 9391</small>
+        </div>
+        <div class="h-100 d-inline-flex align-items-center">
+          <a class="btn btn-sm-square bg-white text-primary me-1" href="https://www.facebook.com/KolkataZoo"><i
+              class="fab fa-facebook-f"></i></a>
+          <a class="btn btn-sm-square bg-white text-primary me-1" href="https://kolkatazoo.in/alipore/"><i
+              class="fab fa-youtube"></i></a>
+          <a class="btn btn-sm-square bg-white text-primary me-1" href="#"><i class="fab fa-linkedin-in"></i></a>
+          <a class="btn btn-sm-square bg-white text-primary me-0" href="#"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Topbar End -->
+
+  <!-- Navbar Start -->
+  <nav class="navbar navbar-expand-lg bg-white navbar-light sticky-top py-lg-0 px-4 px-lg-5 wow fadeIn"
+    data-wow-delay="0.1s">
+    <a href="index.html" class="navbar-brand p-0">
+      <img class="img-fluid me-3" src="img/icon/icon-10.png" alt="Icon" />
+      <h1 class="m-0 text-primary">Zoofari</h1>
+    </a>
+    <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse py-4 py-lg-0" id="navbarCollapse">
+      <div class="navbar-nav ms-auto">
+        <a href="index.html" class="nav-item nav-link">Home</a>
+        <a href="about.html" class="nav-item nav-link active">About</a>
+        <a href="service.html" class="nav-item nav-link">Services</a>
+        <div class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
+          <div class="dropdown-menu rounded-0 rounded-bottom m-0">
+            <a href="animal.html" class="dropdown-item">Our Animals</a>
+            <a href="membership.html" class="dropdown-item">Membership</a>
+            <a href="visiting.html" class="dropdown-item">Visiting Hours</a>
+            <a href="testimonial.html" class="dropdown-item">Testimonial</a>
+            <a href="gallery.html" class="dropdown-item">Gallery</a>
+          </div>
+        </div>
+        <a href="contact.html" class="nav-item nav-link">Contact</a>
+      </div>
+      <a href="zoo_reservation.html" class="btn btn-primary">Buy Ticket<i class="fa fa-arrow-right ms-3"></i></a>
+    </div>
+  </nav>
+  <!-- Navbar End -->
+
+  <!-- Page Header Start -->
+  <div class="container-fluid header-bg py-5 mb-5 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container py-5">
+      <h1 class="display-4 text-white mb-3 animated slideInDown">About Us</h1>
+      <nav aria-label="breadcrumb animated slideInDown">
+        <ol class="breadcrumb mb-0">
+          <li class="breadcrumb-item">
+            <a class="text-white" href="#">Home</a>
+          </li>
+          <li class="breadcrumb-item">
+            <a class="text-white" href="#">Pages</a>
+          </li>
+          <li class="breadcrumb-item text-primary active" aria-current="page">
+            About Us
+          </li>
+        </ol>
+      </nav>
+    </div>
+  </div>
+  <!-- Page Header End -->
+
+  <!-- About Start -->
+  <div class="container-xxl py-5">
+    <div class="container">
+      <div class="row g-5">
+        <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+          <p><span class="text-primary me-2">#</span>Welcome To Zoofari</p>
+          <h1 class="display-5 mb-4">
+            Why You Should Visit
+            <span class="text-primary">Zoofari</span> Park!
+          </h1>
+          <p class="mb-4">
+            The relation between man and animals dates back as far as prehistoric era. From that period animals were
+            worshipped, domesticated, hunted and killed. The relationship between man and animal had led to development
+            of what we called " Zoo ".
+          </p>
+          <h5 class="mb-3">
+            <i class="far fa-check-circle text-primary me-3"></i>Free Car
+            Parking
+          </h5>
+          <h5 class="mb-3">
+            <i class="far fa-check-circle text-primary me-3"></i>Natural
+            Environment
+          </h5>
+          <h5 class="mb-3">
+            <i class="far fa-check-circle text-primary me-3"></i>Professional
+            Guide & Security
+          </h5>
+          <h5 class="mb-3">
+            <i class="far fa-check-circle text-primary me-3"></i>World Best
+            Animals
+          </h5>
+          <a class="btn btn-primary py-3 px-5 mt-3" href="#">Read More</a>
+        </div>
+        <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+          <div class="img-border">
+            <img class="img-fluid" src="img/about.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- About End -->
+
+  <!-- Vision Mission Of Zoo -->
+  <div class="container top_gap">
+    <div class="other-header">
+      <h1 align="center">Vision Mission &amp; Objective</h1>
+      <hr class="style5">
+      <h2></h2>
+      <div class="row">
+        <div class="column">
+
+          <h2> Vision </h2>
+          <p> To provide future direction for modernization &amp; upgradation of the Zoological Garden, Alipore to such
+            extent that in spite of being one of the oldest Zoos of India , it can be at par with one of the best Zoos
+            of the country. For that purpose the available resources, planned breeding, research etc. would be the
+            essential tools keeping in mind the constraints, limitations and inherent challenges of an old Zoo. </p>
+        </div>
+        <div class="column">
+          <h2> Mission </h2>
+          <p>The mission of the Zoological Garden, Alipore is "Conservation of wild animals from India and abroad with
+            special reference to the wet land fauna and education &amp; research for sustainable conservation of wild
+            fauna which are under severe threat due to biotic interference".</p>
+        </div>
+      </div>
+
+      <h2> Objectives of the Zoo </h2>
+      <p>It is intended to develop this zoo on modern lines in conformity with the National Zoo Policy, 1998 with the
+        following objectives in mind: </p>
+
+      <p style="padding-left:25px;">i) Make Alipore Zoo a conservation breeding centre of prominence in India with focus
+        on species of the region with special emphasis on wetland fauna.</p>
+
+      <p style="padding-left:25px;">ii) Make the zoo a centre for conservation and awareness for the visiting public,
+        particularly the young ones, taking advantage of the large visitation of the metropolis and the surrounding
+        region.</p>
+
+      <p style="padding-left:25px;">iii) To initiate and conduct the research on wildlife in captivity and to
+        disseminate the results thereof to other captive animal facilities for conservation of animals in this wild.
+      </p>
+
+    </div>
+  </div>
+
+  <!-- Heritage & History Of Zoo -->
+  <div class="container top_gap">
+    <div class="other-header">
+      <h1 align="center">Heritage &amp; History</h1>
+      <hr class="style5">
+      <h2></h2>
+      <div class="row"><br>
+        <div class="column">
+          <p>Since establishment of the Zoological Garden, Alipore on 24th September, 1875, Zoo has passed through
+            several phases. Initially, the citizens of Kolkata at that time came forward with generosity in the process
+            of establishing the Zoo with financial help and they also donated animals from their collections to the zoo.
+          </p>
+
+          <p> Then land development started and some animal houses were constructed to house animals. "Mullick House" is
+            the first animal house constructed within the Zoo with the financial help of Raja Rajendra Mullick Bahadur,
+            the first Indian donor.</p>
+
+          <p> The park was initially run by an honorary managing committee which included Schwendler and the famous
+            botanist George King. The first Indian superintendent of the zoo was Ram Brahma Sanyal, who did much to
+            improve the standing of the Alipore Zoo and achieved good captive breeding success in an era when such
+            initiatives were rarely heard of. One such success story of the zoo was a live birth of the rare Sumatran
+            Rhinoceros in 1889. The next pregnancy in captivity occurred at the Cincinnati Zoo in 1997, but ended with a
+            miscarriage. Cincinnati Zoo finally recorded a live birth in 2001. Alipore Zoo was a pioneer among zoos in
+            the 19th century and the early part of the 20th century under Sanyal, who published the first handbook on
+            captive animal keeping. The zoo had an unusually high scientific standard for its time, and the record of
+            the Cladotaenia genus (Cohn, 1901) of parasites are based upon cestodes (flatworm) found in an Australian
+            bird that died at the zoo.</p>
+        </div>
+        <div class="column">
+          <p>Fowls and pheasants were kept within this house and they started to breed as early as in February,1876.
+            Followed by Mullick House, Burdwan House presently known as open air moated enclosure for lions, was
+            constructed at a cost of Rs.35,000/-, the entire amount of which was donated by the Maharaja of Burdwan.
+            Gradually other animal houses / enclosures came into being and named after their donors. </p>
+
+          <p>After the establishment of Central Zoo Authority in India in the year 1992, open air moated enclosures for
+            primates, white tiger, Indian elephants , Indian lions and mugger, gharial &amp; salt water crocodile were
+            constructed with the financial help of Central Zoo Authority. During this period, remodelling of open air
+            moated enclosure for hippopotamus was also carried out with the financial assistance of Government of West
+            Bengal. </p>
+
+          <p> Since shifting of management of the Zoological Garden, Alipore from the Management Committee to the West
+            Bengal Zoo Authority in the month of August, 2009, several developmental activities started at the Zoo and
+            because of those activities face of the zoo changed enormously. Several outlived animal house like "Echidna
+            House", "Balaram House" , "Kiosk House", "Jungle Fowl Enclosure", "Cat Cage", "Leanto Shed" etc. were
+            demolished. </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Area Distribution -->
+  <div class="container top_gap">
+    <div class="other-header">
+      <h1 align="center">Area Distribution</h1>
+      <hr class="style5">
+
+
+      <div class="row">
+        <div class="column">
+          <table class="table table-sm table-bordered table-striped">
+            <tbody>
+
+              <tr align="justify">
+                <td valign="top" style="width:35%;">Animal Enclosure</td>
+                <td valign="top" style="width:55%;">Area : 59,579.542 sqm </td>
+              </tr>
+              <tr align="justify">
+                <td valign="top" style="width:35%;">Open Land Area</td>
+                <td valign="top" style="width:55%;">Area : 72416.969 sqm</td>
+              </tr>
+              <tr align="justify">
+                <td valign="top" style="width:35%;">Open Water Body</td>
+                <td valign="top" style="width:55%;">Area : 27,216.175 sqm</td>
+              </tr>
+
+
+              <tr align="justify">
+                <td valign="top">Road and Foot Path</td>
+                <td valign="top">Area : 25,847.852 sqm</td>
+              </tr>
+
+              <tr align="justify">
+                <td valign="top">Public Amenities</td>
+                <td valign="top">Area : 1,858.571 sqm</td>
+              </tr>
+              <tr align="justify">
+                <td valign="top">Administration Amenities </td>
+                <td valign="top">Area : 1,195.873 sqm</td>
+              </tr>
+              <tr align="justify">
+                <td valign="top"><strong>Total Area </strong></td>
+                <td valign="top"><strong>188,114.982 sqm / 18.811 hectare </strong></td>
+              </tr>
+
+            </tbody>
+          </table>
+        </div>
+        <div class="column">
+          <table class="table table-sm table-bordered table-striped">
+            <tbody>
+
+              <tr align="justify">
+                <td valign="top" style="width:35%;">Animal Enclosure</td>
+                <td valign="top" style="width:55%;">Area : 59,579.542 sqm </td>
+              </tr>
+              <tr align="justify">
+                <td valign="top" style="width:35%;">Open Land Area</td>
+                <td valign="top" style="width:55%;">Area : 72416.969 sqm</td>
+              </tr>
+              <tr align="justify">
+                <td valign="top" style="width:35%;">Open Water Body</td>
+                <td valign="top" style="width:55%;">Area : 27,216.175 sqm</td>
+              </tr>
+
+
+              <tr align="justify">
+                <td valign="top">Road and Foot Path</td>
+                <td valign="top">Area : 25,847.852 sqm</td>
+              </tr>
+
+              <tr align="justify">
+                <td valign="top">Public Amenities</td>
+                <td valign="top">Area : 1,858.571 sqm</td>
+              </tr>
+              <tr align="justify">
+                <td valign="top">Administration Amenities </td>
+                <td valign="top">Area : 1,195.873 sqm</td>
+              </tr>
+              <tr align="justify">
+                <td valign="top"><strong>Total Area </strong></td>
+                <td valign="top"><strong>188,114.982 sqm / 18.811 hectare </strong></td>
+              </tr>
+
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <!--<div class="row">
+    <div class="column">
+    <p>The relation between man and animals dates back as far as prehistoric era. From that period animals were worshipped, domesticated, hunted and killed. The relationship between man and animal had led to development of what we called " Zoo ".</p>
+    
+    <p>Egyptian rulers kept animals long back as 2500 BC. Chinese Emperor Wen Wang in 2000 BC established "Garden of Intelligence" in China wherein some common animals were kept. Likewise several Rulers, Emperors tried to develop their private collection of animals at several times.</p>
+    
+    <p>The first Zoo which still exists, was developed in Schonbrun, Austria in 1759 by Emperor Francis I as a present for his wife " Maria Therasa ".</p>
+    
+    <p>With the establishment of the Zoological Society of London in 1826, utility of zoos was realized but even then animals continued to be kept in cages. In 1907, Carl Hagenback developed the concept of barless moated enclosures and this concept of display of animals influenced the managers of zoos around the world. In place of smaller cages, spacious enclosures came into being that also helped in maintaining the biological and psychological need of the captive animals.</p>
+    </div>
+    <div class="column">
+    <p>With the tremendous growth of human population and development of infrastructures like roads, buildings etc. as a support system of growing human population , exploitation of natural resources started leading to depletion of forests. As a consequence of such activities , animal populations day by day became fragmented leading to loss of genetic variability in animals and ultimately enter into extinction vortex.</p>
+    
+    <p>Under the circumstances, the role of zoos was also dramatically changed. The menagerie of 19th Century developed into Zoological Parks in 20th Century and ultimately the same developed into conservation centres in 21st Century.</p>
+    
+    <p>Over the period of time, justifications of establishing a zoo have changed from mere exhibitionishim, entertainment and amusement into research, education and ex-situ conservation specially to complement in-situ-conservation.</p>
+    </div>
+    </div>-->
+    </div>
+  </div>
+
+  <!-- Facts Start -->
+  <div class="container-xxl bg-primary facts my-5 py-5 wow fadeInUp" data-wow-delay="0.1s">
+    <div class="container py-5">
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.1s">
+          <i class="fa fa-paw fa-3x text-primary mb-3"></i>
+          <h1 class="text-white mb-2" data-toggle="counter-up">12345</h1>
+          <p class="text-white mb-0">Total Animal</p>
+        </div>
+        <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.3s">
+          <i class="fa fa-users fa-3x text-primary mb-3"></i>
+          <h1 class="text-white mb-2" data-toggle="counter-up">12345</h1>
+          <p class="text-white mb-0">Daily Visitors</p>
+        </div>
+        <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.5s">
+          <i class="fa fa-certificate fa-3x text-primary mb-3"></i>
+          <h1 class="text-white mb-2" data-toggle="counter-up">12345</h1>
+          <p class="text-white mb-0">Total Membership</p>
+        </div>
+        <div class="col-md-6 col-lg-3 text-center wow fadeIn" data-wow-delay="0.7s">
+          <i class="fa fa-shield-alt fa-3x text-primary mb-3"></i>
+          <h1 class="text-white mb-2" data-toggle="counter-up">12345</h1>
+          <p class="text-white mb-0">Save Wild Life</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Facts End -->
+
+  <!-- Testimonial Start -->
+  <div class="container-xxl py-5">
+    <div class="container">
+      <h1 class="display-5 text-center mb-5 wow fadeInUp" data-wow-delay="0.1s">
+        Our Clients Say!
+      </h1>
+      <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.1s">
+        <div class="testimonial-item text-center">
+          <img class="img-fluid rounded-circle border border-2 p-2 mx-auto mb-4" src="img/testimonial-1.jpg"
+            style="width: 100px; height: 100px" />
+          <div class="testimonial-text rounded text-center p-4">
+            <p>
+              Clita clita tempor justo dolor ipsum amet kasd amet duo justo
+              duo duo labore sed sed. Magna ut diam sit et amet stet eos sed
+              clita erat magna elitr erat sit sit erat at rebum justo sea
+              clita.
+            </p>
+            <h5 class="mb-1">Patient Name</h5>
+            <span class="fst-italic">Profession</span>
+          </div>
+        </div>
+        <div class="testimonial-item text-center">
+          <img class="img-fluid rounded-circle border border-2 p-2 mx-auto mb-4" src="img/testimonial-2.jpg"
+            style="width: 100px; height: 100px" />
+          <div class="testimonial-text rounded text-center p-4">
+            <p>
+              Clita clita tempor justo dolor ipsum amet kasd amet duo justo
+              duo duo labore sed sed. Magna ut diam sit et amet stet eos sed
+              clita erat magna elitr erat sit sit erat at rebum justo sea
+              clita.
+            </p>
+            <h5 class="mb-1">Patient Name</h5>
+            <span class="fst-italic">Profession</span>
+          </div>
+        </div>
+        <div class="testimonial-item text-center">
+          <img class="img-fluid rounded-circle border border-2 p-2 mx-auto mb-4" src="img/testimonial-3.jpg"
+            style="width: 100px; height: 100px" />
+          <div class="testimonial-text rounded text-center p-4">
+            <p>
+              Clita clita tempor justo dolor ipsum amet kasd amet duo justo
+              duo duo labore sed sed. Magna ut diam sit et amet stet eos sed
+              clita erat magna elitr erat sit sit erat at rebum justo sea
+              clita.
+            </p>
+            <h5 class="mb-1">Patient Name</h5>
+            <span class="fst-italic">Profession</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Testimonial End -->
+
+  <!-- Footer Start -->
+  <div class="container-fluid footer bg-dark text-light footer mt-5 pt-5 wow fadeIn" data-wow-delay="0.1s">
+    <div class="container py-5">
+      <div class="row g-5" style="margin-left: 20%;">
+        <div class="col-lg-3 col-md-6">
+          <h5 class="text-light mb-4">Address</h5>
+          <p class="mb-3">
+            <i class="fa fa-map-marker-alt me-3"></i>2 No. Alipore Road
+            Kolkata 700 027, West Bengal, India
+          </p>
+          <p class="mb-3">
+            <i class="fa fa-phone-alt me-3"></i>+91 33 2479 1150 / +91 33 2439 9391
+          </p>
+          <p class="mb-3">
+            <i class="fa fa-envelope me-3"></i>director@kolkatazoo.in
+          </p>
+          <p class="mb-3">
+            <i class="fas fa-fax me-3"></i> +91 33 2479 1585 (Fax)
+          </p>
+          <div class="d-flex pt-2">
+            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
+            <a class="btn btn-outline-light btn-social" href="https://www.facebook.com/KolkataZoo"><i
+                class="fab fa-facebook-f"></i></a>
+            <a class="btn btn-outline-light btn-social" href="https://kolkatazoo.in/alipore/"><i
+                class="fab fa-youtube"></i></a>
+            <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <h5 class="text-light mb-4">Quick Links</h5>
+          <a class="btn btn-link" href="about.html">About Us</a>
+          <a class="btn btn-link" href="contact.html">Contact Us</a>
+          <a class="btn btn-link" href="service.html">Our Services</a>
+          <a class="btn btn-link" href="#">Terms & Condition</a>
+          <a class="btn btn-link" href="#">Support</a>
+        </div>
+        <div class="col-lg-3 col-md-6">
+          <h5 class="text-light mb-4">Popular Links</h5>
+          <a class="btn btn-link" href="about.html">About Us</a>
+          <a class="btn btn-link" href="contact.html">Contact Us</a>
+          <a class="btn btn-link" href="service.html">Our Services</a>
+          <a class="btn btn-link" href="#">Terms & Condition</a>
+          <a class="btn btn-link" href="#">Support</a>
+        </div>
+        <!-- <div class="col-lg-3 col-md-6">
+          <h5 class="text-light mb-4">Newsletter</h5>
+          <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
+          <div class="position-relative mx-auto" style="max-width: 400px">
+            <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email" />
+            <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">
+              SignUp
+            </button>
+          </div>
+        </div>-->
+      </div>
+    </div>
+    <div class="container">
+      <div class="copyright">
+        <div class="row">
+          <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+            &copy; <a class="border-bottom" href="#">Designed By Ranajoy Dutta</a>, All
+            Right Reserved.
+          </div>
+          <!-- <div class="col-md-6 text-center text-md-end">
+            /*** This template is free as long as you keep the footer author’s credit link/attribution link/backlink. If you'd like to use the template without the footer author’s credit link/attribution link/backlink, you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". Thank you for your support. ***/
+            Designed By
+            <a class="border-bottom" href="https://htmlcodex.com">HTML Codex</a>
+            <br />Distributed By:
+            <a href="https://themewagon.com" target="_blank">ThemeWagon</a>
+          </div> -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Footer End -->
+
+  <!-- Back to Top -->
+  <a href="#" class="btn btn-lg btn-primary btn-lg-square back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+  <!-- JavaScript Libraries -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="lib/wow/wow.min.js"></script>
+  <script src="lib/easing/easing.min.js"></script>
+  <script src="lib/waypoints/waypoints.min.js"></script>
+  <script src="lib/counterup/counterup.min.js"></script>
+  <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+  <script src="lib/lightbox/js/lightbox.min.js"></script>
+
+  <!-- Template Javascript -->
+  <script src="js/main.js"></script>
+</body>
+
+</html>

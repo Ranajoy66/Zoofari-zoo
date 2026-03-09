@@ -1,0 +1,37 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.gal-container{
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 8%;
+}
+
+.gall{
+  display: grid;
+  grid-template-columns: repeat(5,minmax(250px,1fr));
+  grid-gap: 30px;
+  /* margin-left: 4%;
+  margin-right: 4%; */
+
+}
+.gall img{
+  width: 100%;
+  filter: grayscale(100%);
+-webkit-filter: grayscale(100%);
+-webkit-transition: all 1s ease;
+}
+
+.gall img:hover{
+  ilter: grayscale(0%);
+filter: gray;
+-webkit-filter: grayscale(0%);
+filter: none;
+transition: 1s ease;
+}
